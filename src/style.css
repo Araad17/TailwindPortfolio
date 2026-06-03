@@ -1,0 +1,23 @@
+ body,
+ button,
+ input,
+ textarea,
+ select {
+     font-family: 'Courier Prime', monospace;
+ }
+
+ .name-heading {
+     animation: heading-float 1.8s ease-in-out infinite alternate;
+ }
+
+ @keyframes heading-float {
+     from {
+         opacity: 0.9;
+         transform: translateY(0);
+     }
+
+     to {
+         opacity: 1;
+         transform: translateY(-6px);
+     }
+ }

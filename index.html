@@ -60,6 +60,7 @@
                 opacity: 0;
                 transform: translateY(18px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -83,7 +84,7 @@
                 </a>
                 <nav
                     class="flex flex-wrap items-center justify-center gap-3 text-sm font-medium divide-x divide-white/10 col-span-2 md:col-auto">
-                    <a href="#home" class="rounded-full px-4 py-2 transition hover:text-white">_index</a>
+                    <a href="#home" class="rounded-full px-4 py-2 transition hover:text-white border-r-8">_index</a>
                     <a href="#about" class="rounded-full px-4 py-2 transition hover:text-white">_about-me</a>
                     <a href="#projects" class="rounded-full px-4 py-2 transition hover:text-white">_projec</a>
                 </nav>
@@ -116,46 +117,57 @@
                                 const e-mail = "yasin.araad@gmail.com"</li>
                         </ul>
                     </div>
-                    <div
-                        class="rounded-[2rem] border border-white/10 bg-slate-900/80 p-4 shadow-2xl shadow-slate-950/40">
-                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80"
-                            alt="Profile picture" class="h-full w-full rounded-[1.75rem] object-cover" />
+                    <div class="rounded-[2rem] border border-white/10 bg-slate-900/80 shadow-2xl shadow-slate-950/40">
+                        <img src="./src/img/images (24).jpg" alt="Profile picture"
+                            class="h-full w-full rounded-[1.75rem] object-cover" />
                     </div>
                 </section>
 
-                <section id="about" class="space-y-6 rounded-[1.75rem] border border-white/10 bg-slate-900/60 p-6 text-center">
+                <section id="about"
+                    class="space-y-6 rounded-[1.75rem] border border-white/10 bg-slate-900/60 p-6 text-center">
                     <div class="space-y-4">
                         <h2 class="text-3xl font-semibold text-orange-400 about-heading">About me</h2>
-                        <p class="mx-auto max-w-3xl text-slate-300">Hello I'm <span class="font-bold text-white">Yasin Araad</span> from Afghanistan. A passionate
-                            <span class="text-orange-400 font-semibold">full-stack</span> <span class="text-white font-semibold">&</span> <span class="text-orange-400 font-semibold">web Mobile Developer</span> <span class="text-white font-semibold">and</span> <span class="text-orange-400 font-semibold">ux/ui</span> <span class="text-white font-semibold">&</span> <span class="text-orange-400 font-semibold">Graphic Designer</span> with 6+ months of experience
+                        <p class="mx-auto max-w-3xl text-slate-300">Hello I'm <span class="font-bold text-white">Yasin
+                                Araad</span> from Afghanistan. A passionate
+                            <span class="text-orange-400 font-semibold">full-stack</span> <span
+                                class="text-white font-semibold">&</span> <span
+                                class="text-orange-400 font-semibold">web Mobile Developer</span> <span
+                                class="text-white font-semibold">and</span> <span
+                                class="text-orange-400 font-semibold">ux/ui</span> <span
+                                class="text-white font-semibold">&</span> <span
+                                class="text-orange-400 font-semibold">Graphic Designer</span> with 6+ months of
+                            experience
                             in building powerful, user friendly digital solutions. I hold a bachelor's in Software
                             Engineering and speak two languages fluently: Persian and English.
                         </p>
                     </div>
                     <div class="grid gap-4 md:grid-cols-3">
                         <div
-                            class="aspect-[4/3] overflow-hidden rounded-3xl bg-gradient-to-br from-sky-500/20 via-indigo-500/20 to-violet-500/15 p-4">
-                            <div class="h-full w-full rounded-3xl bg-slate-950/60"></div>
+                            class="aspect-[4/3] overflow-hidden rounded-3xl bg-gradient-to-br from-sky-500/20 via-indigo-500/20 to-violet-500/15 ">
+                            <div class="h-full w-full rounded-3xl bg-slate-950/60"><img src="/src/img/images (24).jpg"
+                                    alt="" class="h-full w-full rounded-3xl bg-slate-950/60"></div>
                         </div>
                         <div
-                            class="aspect-[4/3] overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-500/20 via-cyan-500/20 to-sky-500/15 p-4">
-                            <div class="h-full w-full rounded-3xl bg-slate-950/60"></div>
+                            class="aspect-[4/3] overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-500/20 via-cyan-500/20 to-sky-500/15 ">
+                            <div class="h-full w-full rounded-3xl bg-slate-950/60"><img src="/src/img/images (24).jpg"
+                                    alt="" class="h-full w-full rounded-3xl bg-slate-950/60"></div>
                         </div>
                         <div
-                            class="aspect-[4/3] overflow-hidden rounded-3xl bg-gradient-to-br from-fuchsia-500/20 via-pink-500/20 to-rose-500/15 p-4">
-                            <div class="h-full w-full rounded-3xl bg-slate-950/60"></div>
+                            class="aspect-[4/3] overflow-hidden rounded-3xl bg-gradient-to-br from-fuchsia-500/20 via-pink-500/20 to-rose-500/15 ">
+                            <div class="h-full w-full rounded-3xl bg-slate-950/60"><img src="/src/img/images (24).jpg"
+                                    alt="" class="h-full w-full rounded-3xl bg-slate-950/60"></div>
                         </div>
                     </div>
                 </section>
 
                 <section id="projects" class="space-y-6 rounded-[1.75rem] border border-white/10 bg-slate-900/60 p-6">
-                    <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-                        <div class="flex items-center gap-4">
+                    <div class="flex flex-row flex-nowrap items-center justify-between gap-4">
+                        <div class="flex items-center gap-3 whitespace-nowrap">
                             <span
-                                class="inline-flex h-14 w-14 items-center justify-center rounded-3xl bg-sky-500/20 text-2xl">📁</span>
+                                class="inline-flex h-12 w-12 items-center justify-center rounded-3xl text-xl">📁</span>
                             <div>
-                                <p class="text-sm uppercase tracking-[0.35em] text-sky-300/90">_project</p>
-                                <h2 class="text-3xl font-semibold text-white">Project categories</h2>
+                                <h2 class="text-xl sm:text-2xl font-semibold text-white whitespace-nowrap">Project
+                                    categories</h2>
                             </div>
                         </div>
                     </div>
@@ -215,7 +227,6 @@
                         <div
                             class="mx-auto mb-4 flex h-28 w-28 items-center justify-center rounded-full bg-sky-500/15 text-4xl">
                             👤</div>
-                        <p class="mb-2 text-sm uppercase tracking-[0.35em] text-sky-300/90">_contact-me</p>
                         <h2 class="mb-4 text-2xl font-semibold text-white">Let’s connect</h2>
                         <div class="space-y-3 text-left text-slate-300">
                             <p><span class="font-semibold text-slate-100">GitHub:</span> <a
@@ -230,9 +241,9 @@
                 </section>
             </main>
 
-            <footer class="flex flex-col gap-4 px-6 py-6 text-slate-300 sm:flex-row sm:items-center sm:justify-between">
+            <footer class="flex flex-row items-center justify-between gap-4 px-6 py-6 text-slate-300">
                 <p class="text-sm font-medium">finde me:</p>
-                <div class="flex flex-wrap items-center gap-4 text-sm">
+                <div class="flex items-center gap-4 text-sm">
                     <a href="https://github.com/Araad17"
                         class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 hover:bg-white/10">💻
                         GitHub</a>
